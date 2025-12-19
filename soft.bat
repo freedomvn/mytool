@@ -28,7 +28,7 @@ echo            CONG CU CAI DAT PHAN MEM VIET NAM (AUTO)
 echo ===============================================================
 echo  [ TRINH DUYET ]      [ VAN PHONG ]         [ CONG CU ]
 echo  1. Chrome            7. Office 365         13. WinRAR/7-Zip
-echo  2. Cốc Cốc           8. Foxit Reader       14. EVKey/UniKey
+echo  2. Coc Coc           8. Foxit Reader       14. EVKey/UniKey
 echo  3. Firefox           9. Unikey (Goc)       15. IDM (Download)
 echo.
 echo  [ LIEN LAC ]         [ GIAI TRI ]          [ DO HOA/EDIT ]
@@ -96,3 +96,4 @@ echo [OK] Tat ca phan mem da duoc cai dat!
 pause
 
 goto MENU
+
