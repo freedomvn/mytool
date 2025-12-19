@@ -1,14 +1,4 @@
 @echo off
-:: Kiem tra quyen Admin
-net session >nul 2>&1
-if %errorLevel% == 0 (
-    echo Dang chay voi quyen Admin...
-) else (
-    echo Vui long chuot phai vao file nay va chon 'Run as Administrator'.
-    pause
-    exit /b
-)
-
 echo ---------------------------------------------------
 echo DANG THIET LAP MUI GIO +7 (BANGKOK, HANOI, JAKARTA)
 echo ---------------------------------------------------
@@ -32,4 +22,5 @@ w32tm /resync /force
 
 echo.
 echo Hoan tat! Gio he thong cua ban da duoc cap nhat.
+
 pause
