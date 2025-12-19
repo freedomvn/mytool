@@ -35,9 +35,12 @@ echo  [ LIEN LAC ]         [ GIAI TRI ]          [ DO HOA/EDIT ]
 echo  4. Zalo             10. VLC Player         16. CapCut PC
 echo  5. Telegram         11. Spotify            17. Photoshop (Beta)
 echo  6. Messenger        12. K-Lite Codec       18. OBS Studio
+echo  [ Ho Tro Tu Xa ]
+echo  U. Ultraview 
+echo  T. Teamview
 echo.
 echo  [ TU DONG ]         
-echo  19. CAI GOI CO BAN (Zalo, Unikey, Chrome, WinRAR, Foxit)
+echo  19. CAI GOI CO BAN (Zalo, Unikey, Chrome, WinRAR, Foxit, Ultraview)
 echo  20. CAI TAT CA      0. THOAT
 echo ===============================================================
 set /p choice="Nhap so (0-20): "
@@ -61,6 +64,8 @@ if "%choice%"=="15" set APP=Tonec.InternetDownloadManager & goto INSTALL
 if "%choice%"=="16" set APP=ByteDance.CapCut & goto INSTALL
 if "%choice%"=="17" set APP=Adobe.Photoshop & goto INSTALL
 if "%choice%"=="18" set APP=obsproject.obs-studio & goto INSTALL
+if "%choice%"=="U" set APP=DucFabulous.UltraViewer & goto INSTALL
+if "%choice%"=="T" set APP=TeamViewer.TeamViewer & goto INSTALL
 if "%choice%"=="19" goto BASIC
 if "%choice%"=="20" goto ALL
 if "%choice%"=="0" exit
@@ -77,7 +82,7 @@ goto MENU
 :BASIC
 echo.
 echo --- DANG CAI GOI CO BAN CHO NGUOI VIET ---
-for %%i in (Google.Chrome Zalo.Zalo PhamKimLong.UniKey 7zip.7zip Foxit.FoxitReader) do (
+for %%i in (Google.Chrome Zalo.Zalo PhamKimLong.UniKey 7zip.7zip Foxit.FoxitReader,) do (
     echo [+] Dang cai %%i...
     winget install --id %%i --silent --accept-source-agreements --accept-package-agreements
 )
@@ -96,4 +101,5 @@ echo [OK] Tat ca phan mem da duoc cai dat!
 pause
 
 goto MENU
+
 
