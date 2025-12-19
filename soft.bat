@@ -56,7 +56,7 @@ if "%choice%"=="10" set APP=VideoLAN.VLC & goto INSTALL
 if "%choice%"=="11" set APP=Spotify.Spotify & goto INSTALL
 if "%choice%"=="12" set APP=CodecGuide.K-LiteCodecPack.Full & goto INSTALL
 if "%choice%"=="13" set APP=7zip.7zip & goto INSTALL
-if "%choice%"=="14" set APP=PhamKimLong.UniKey & goto INSTALL
+if "%choice%"=="14" set APP=lamquangminh.EVKey & goto INSTALL
 if "%choice%"=="15" set APP=Tonec.InternetDownloadManager & goto INSTALL
 if "%choice%"=="16" set APP=ByteDance.CapCut & goto INSTALL
 if "%choice%"=="17" set APP=Adobe.Photoshop & goto INSTALL
@@ -94,4 +94,5 @@ for %%i in (Google.Chrome CocCoc.CocCoc Zalo.Zalo Telegram.TelegramDesktop Faceb
 )
 echo [OK] Tat ca phan mem da duoc cai dat!
 pause
+
 goto MENU
