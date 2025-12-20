@@ -7,7 +7,7 @@ if %errorLevel% neq 0 (
 )
 
 cd /d "%~dp0"
-title Auto Install Tool Vietnam Edition
+title Cai Phan Mem
 
 :: --- KIEM TRA VA CAI WINGET ---
 winget --version >nul 2>&1
@@ -101,6 +101,7 @@ echo [OK] Tat ca phan mem da duoc cai dat!
 pause
 
 goto MENU
+
 
 
 
