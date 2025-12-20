@@ -24,4 +24,4 @@ Một script Batch đơn giản giúp cài đặt nhanh các phần mềm phổ 
 Bạn không cần tải file về, chỉ cần mở **Command Prompt (CMD)** và dán lệnh sau để chạy trực tiếp:
 
 ```batch
-powershell -Command "irb [https://raw.githubusercontent.com/freedomvn/mytool/refs/heads/main/tool.bat](https://raw.githubusercontent.com/freedomvn/mytool/refs/heads/main/tool.bat) | iex"
+powershell -Command "iex (irm https://raw.githubusercontent.com/freedomvn/mytool/refs/heads/main/tool.bat)"
