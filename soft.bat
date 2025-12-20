@@ -82,7 +82,7 @@ goto MENU
 :BASIC
 echo.
 echo --- DANG CAI GOI CO BAN CHO NGUOI VIET ---
-for %%i in (Google.Chrome Zalo.Zalo PhamKimLong.UniKey 7zip.7zip Foxit.FoxitReader,) do (
+for %%i in (Google.Chrome Zalo.Zalo PhamKimLong.UniKey 7zip.7zip Foxit.FoxitReader DucFabulous.UltraViewer) do (
     echo [+] Dang cai %%i...
     winget install --id %%i --silent --accept-source-agreements --accept-package-agreements
 )
@@ -93,7 +93,7 @@ goto MENU
 :ALL
 echo.
 echo --- DANG CAI TAT CA ---
-for %%i in (Google.Chrome CocCoc.CocCoc Zalo.Zalo Telegram.TelegramDesktop Facebook.Messenger Foxit.FoxitReader EVKey.EVKey 7zip.7zip VideoLAN.VLC ByteDance.CapCut Spotify.Spotify) do (
+for %%i in (Google.Chrome CocCoc.CocCoc Zalo.Zalo Telegram.TelegramDesktop Facebook.Messenger Foxit.FoxitReader EVKey.EVKey 7zip.7zip VideoLAN.VLC ByteDance.CapCut Spotify.Spotify,DucFabulous.UltraViewer,TeamViewer.TeamViewer) do (
     echo [+] Dang tai va cai %%i...
     winget install --id %%i --silent --accept-source-agreements --accept-package-agreements
 )
@@ -101,5 +101,6 @@ echo [OK] Tat ca phan mem da duoc cai dat!
 pause
 
 goto MENU
+
 
 
